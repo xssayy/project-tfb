@@ -46,12 +46,14 @@ body {
 @media (min-width: 768px) {
   .container {
     width: 768px;
+    padding: 0 32px 0 32px;
   }
 }
 
 @media (min-width: 1280px) {
   .container {
     width: 1280px;
+    padding: 0 100px 0 100px;
   }
 }
 
