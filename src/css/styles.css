@@ -22,3 +22,11 @@
   letter-spacing: -0.28px;
   color: #ffffff;
 }
+
+.container {
+  padding: 0 20px 0 20px;
+}
+
+.section {
+  margin-bottom: 80px;
+}
