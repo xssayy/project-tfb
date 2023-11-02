@@ -15,3 +15,10 @@
 @import url('./sign-up.css');
 @import url('./reviews.css');
 @import url('./footer.css');
+
+.text {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  color: #ffffff;
+}
