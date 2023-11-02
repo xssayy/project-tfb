@@ -16,6 +16,10 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
 .text {
   font-size: 14px;
   line-height: 18px;
@@ -25,8 +29,34 @@
 
 .container {
   padding: 0 20px 0 20px;
+  margin: 0 auto;
+  min-width: 320px;
 }
 
 .section {
   margin-bottom: 80px;
+}
+
+@media (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
 }
