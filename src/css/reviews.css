@@ -1,0 +1,59 @@
+
+.reviews-subtitle {
+    color: #FFF;    
+    font-size: 28px;    
+    line-height: 1.15; /* 114.286% */
+    letter-spacing: -0.04em;  
+
+    margin-bottom: 40px;
+
+}
+.reviwes-list {
+   
+}
+.reviwes-item {  
+    border: 1px solid #FFFFFF33;
+    border-radius: 12px;
+    
+}
+
+
+.reviwes-img {
+    display: block;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+.reviwes-person {
+color: #FFF;
+font-size: 20px;
+line-height: 1.2; /* 120% */
+
+margin-bottom: 4px;
+}
+.reviwes-status {
+color: rgba(255, 255, 255, 0.50);
+font-size: 12px;
+line-height: 1.4; /* 133.333% */
+letter-spacing: -0.24px;
+
+margin-bottom: 10px;
+
+}
+
+.reviwes-stars {
+    margin-bottom: 20px;
+}
+
+.reviwes-stars-icon {
+}
+
+.reviwes-text {
+    color: #FFF;
+    font-size: 14px;  
+    line-height: 1.29; /* 128.571% */
+    letter-spacing: -0.02em;
+    }
+
+
+
