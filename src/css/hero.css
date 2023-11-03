@@ -39,12 +39,17 @@
 }
 
 .hero-left-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .hero-list {
+  display: flex;
 }
 
 .hero-item {
+  margin-right: -12px;
 }
 
 .hero-list-img {
