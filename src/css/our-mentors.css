@@ -30,10 +30,10 @@
 .mentors-photo {
   border-radius: 200px;
   background: #e0e0e0;
+  max-width: 0 auto;
   margin-bottom: 16px;
 }
-.mentors .mentors-cards-list .mentors-card .mentors-info {
-}
+
 .mentors .mentors-cards-list .mentors-card .mentors-info .mentors-item-title {
   color: #fff;
   text-align: center;
@@ -55,23 +55,45 @@
   letter-spacing: -0.02em;
 }
 
-@media (min-width: 320px) {
-  max-width: 100%;
-}
-@media (min-width: 375px) and (min-resolution: 192dpi) {
-}
-
-@media (min-width: 375px) {
-}
-@media (min-width: 375px) and (min-resolution: 192dpi) {
-}
-
-@media (min-width: 768px) {
-}
-@media (min-width: 768px) and (min-resolution: 192dpi) {
+@media screen and (min-width: 375px) {
+  .mentors-container {
+    max-width: 375px;
+    margin-bottom: 80px;
+  }
+  .mentors .mentors-main-title {
+    margin-bottom: 40px;
+  }
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 768px) {
+  .mentors-container {
+    max-width: 768px;
+    margin-bottom: 100px;
+  }
+  .mentors .mentors-main-title {
+    margin-bottom: 50px;
+  }
+  .mentors-cards-list {
+    gap: 93px;
+    justify-content: center;
+  }
+  .mentors .mentors-cards-list .mentors-card {
+    width: calc (100% - 100px) / 2;
+  }
 }
-@media (min-width: 1280px) and (min-resolution: 192dpi) {
+
+@media screen and (min-width: 1280px) {
+  .mentors-container {
+    max-width: 1120px;
+    margin-bottom: 150px;
+  }
+  .mentors .mentors-main-title {
+    margin-bottom: 50px;
+  }
+  .mentors-cards-list {
+    gap: 100px;
+  }
+  .mentors .mentors-cards-list .mentors-card {
+    width: 180px;
+  }
 }
