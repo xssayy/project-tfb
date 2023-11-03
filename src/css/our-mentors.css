@@ -55,9 +55,23 @@
   letter-spacing: -0.02em;
 }
 
-/*@media (min-width: 320px) {
+@media (min-width: 320px) {
+  max-width: 100%;
 }
 @media (min-width: 375px) and (min-resolution: 192dpi) {
 }
+
+@media (min-width: 375px) {
+}
+@media (min-width: 375px) and (min-resolution: 192dpi) {
+}
+
 @media (min-width: 768px) {
-}*/
+}
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+}
+
+@media (min-width: 1280px) {
+}
+@media (min-width: 1280px) and (min-resolution: 192dpi) {
+}
