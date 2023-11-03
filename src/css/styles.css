@@ -55,12 +55,20 @@ body {
     letter-spacing: -0.32px;
     color: #ffffff;
   }
+
+  .section {
+    margin-bottom: 100px;
+  }
 }
 
 @media (min-width: 1280px) {
   .container {
     width: 1280px;
     padding: 0 100px 0 100px;
+  }
+
+  .section {
+    margin-bottom: 150px;
   }
 }
 
