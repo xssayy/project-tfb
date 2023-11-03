@@ -14,7 +14,8 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -0.04em;
-  padding-top: 40px;
+  padding: 40px 20px 0;
+
   margin-bottom: 20px;
 }
 
@@ -25,12 +26,7 @@
 }
 
 .hero-text {
-  /* color: #fff; */
-  /* font-family: DM Sans; */
-  /* font-size: 14px; */
-  /* font-weight: 400; */
-  /* line-height: 1.29; */
-  /* letter-spacing: -0.02em; */
+  padding: 0 20px;
   margin-bottom: 40px;
 }
 
@@ -38,7 +34,8 @@
   display: flex;
 
   /* По ходу це для 375px+ */
-
+  padding-left: 20px;
+  padding-right: 62px;
   gap: 40px;
 }
 
@@ -134,5 +131,6 @@
   letter-spacing: -0.04;
 }
 
-.hero-img {
+.hero-photographer-img {
+  margin: 0 auto;
 }
