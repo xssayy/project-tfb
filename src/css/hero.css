@@ -8,9 +8,7 @@
 
 .hero-title {
   color: #fff;
-  font-family: DM Sans;
   font-size: 40px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -0.04em;
@@ -26,6 +24,10 @@
 }
 
 .hero-text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
   padding: 0 20px;
   margin-bottom: 40px;
 }
@@ -133,4 +135,24 @@
 
 .hero-photographer-img {
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    padding: 64px 32px 0;
+    font-size: 60px;
+    line-height: 1.07;
+    width: 581px;
+  }
+
+  .hero-text {
+    padding: 0 32px;
+    max-width: 482px;
+  }
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1440px) {
 }
