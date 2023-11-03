@@ -1,0 +1,63 @@
+.mentors {
+  background-color: #121212;
+}
+.mentors-container {
+  margin-bottom: 80px;
+}
+.mentors .mentors-main-title {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1, 14;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+}
+.mentors-span {
+  color: #bea69e;
+}
+.mentors-cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.mentors .mentors-cards-list .mentors-card {
+  min-width: 185px;
+  background-color: transparent;
+}
+.mentors-photo {
+  border-radius: 200px;
+  background: #e0e0e0;
+  margin-bottom: 16px;
+}
+.mentors .mentors-cards-list .mentors-card .mentors-info {
+}
+.mentors .mentors-cards-list .mentors-card .mentors-info .mentors-item-title {
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+.mentors .mentors-cards-list .mentors-card .mentors-info .mentors-item-text {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+/*@media (min-width: 320px) {
+}
+@media (min-width: 375px) and (min-resolution: 192dpi) {
+}
+@media (min-width: 768px) {
+}*/
