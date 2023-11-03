@@ -1,34 +1,69 @@
 .hero {
 }
+
 .hero-container {
+  border-radius: 30px;
+  background-color: #1d1d1d;
 }
-.header-title {
+
+.hero-title {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  padding-top: 40px;
+  margin-bottom: 20px;
 }
-.header-text {
+
+.hero-title > span {
+  color: #bea69e;
+  font-style: italic;
+  font-weight: 400;
 }
-.header-wrapper {
+
+.hero-text {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  margin-bottom: 40px;
 }
-.header-left-wrapper {
+
+.hero-wrapper {
+  display: flex;
+  gap: 40px;
 }
-.header-list {
+
+.hero-left-wrapper {
 }
-.header-item {
+
+.hero-list {
 }
-.header-list-img {
+
+.hero-item {
 }
-.header-left-subwrapper {
+
+.hero-list-img {
 }
-.header-text-students {
+
+.hero-left-subwrapper {
 }
-.header-icon-arrow {
+
+.hero-text-students {
 }
-.header-right-wrapper {
+.hero-icon-arrow {
 }
-.header-icon-star {
+.hero-right-wrapper {
 }
-.header-text-reviews {
+.hero-icon-star {
 }
-.header-text-num {
+.hero-text-reviews {
 }
-.header-img {
+.hero-text-num {
+}
+.hero-img {
 }
