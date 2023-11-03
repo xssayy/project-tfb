@@ -18,12 +18,13 @@
 
 body {
   font-family: 'DM Sans', sans-serif;
+  background: #121212;
 }
 
 .text {
   font-size: 14px;
   line-height: 18px;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
   color: #ffffff;
 }
 
@@ -52,8 +53,6 @@ body {
   .text {
     font-size: 16px;
     line-height: 20px;
-    letter-spacing: -0.32px;
-    color: #ffffff;
   }
 
   .section {
