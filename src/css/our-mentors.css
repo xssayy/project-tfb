@@ -54,7 +54,6 @@
   line-height: 1.3;
   letter-spacing: -0.02em;
 }
-
 @media screen and (min-width: 375px) {
   .mentors-container {
     max-width: 375px;
@@ -64,7 +63,6 @@
     margin-bottom: 40px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .mentors-container {
     max-width: 768px;
@@ -81,7 +79,6 @@
     width: calc (100% - 100px) / 2;
   }
 }
-
 @media screen and (min-width: 1280px) {
   .mentors-container {
     max-width: 1120px;
