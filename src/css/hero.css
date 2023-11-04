@@ -152,7 +152,7 @@
   .hero-title {
     font-size: 60px;
     line-height: 1.07;
-    max-width: 517px;
+    max-width: 500px;
   }
 
   .hero-title > span {
@@ -199,6 +199,10 @@
     line-height: 1.25;
     letter-spacing: -0.04em;
     width: 82px;
+  }
+
+  .hero-icon-arrow {
+    align-self: flex-start;
   }
 
   .hero-icon-wrapper {
