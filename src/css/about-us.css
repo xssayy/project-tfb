@@ -16,6 +16,10 @@
     letter-spacing: -0.04em;
 }
 
+.about-us-title:hover {
+    color: #BEA69E;
+}
+
 .about-us-accent {
     color: #BEA69E;
     font-size: 28px;
@@ -40,4 +44,24 @@
     font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.02em;
+}
+
+@media screen and (min-width: 768px) {
+    .about-us-container {
+        max-width: 768px;
+    }
+
+    .about-us-text-box {
+        flex-wrap: nowrap;
+        gap: 40px;
+    }
+
+    .about-us-text {
+        width: 335px;
+    }
+
+    .about-us-img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
