@@ -1,10 +1,10 @@
-.mentors {
+.section-mentors {
   background-color: #121212;
 }
-.mentors-container {
+.container-mentors {
   margin-bottom: 80px;
 }
-.mentors .mentors-main-title {
+.container-mentors .mentors-main-title {
   color: #fff;
   font-family: DM Sans;
   font-size: 28px;
@@ -14,16 +14,16 @@
   letter-spacing: -0.04em;
   margin-bottom: 40px;
 }
-.mentors-span {
+.container-mentors .mentors-span {
   color: #bea69e;
 }
-.mentors-cards-list {
+.container-mentors .mentors-cards-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
 }
-.mentors .mentors-cards-list .mentors-card {
+.container-mentors .mentors-cards-list .mentors-card {
   min-width: 185px;
   background-color: transparent;
 }
