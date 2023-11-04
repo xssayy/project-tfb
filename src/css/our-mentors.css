@@ -4,10 +4,7 @@
 }
 .our-mentors-container {
   width: 100%;
-  align-items: center;
-
-  padding-left: 20px;
-  padding-right: 20px;
+  margin: 0 auto;
 }
 .our-mentors-container .our-mentors-main-title {
   color: #fff;
@@ -17,6 +14,7 @@
   font-weight: 500;
   line-height: 1, 14;
   letter-spacing: -0.04em;
+  margin-left: 20px;
   margin-bottom: 40px;
 }
 .our-mentors-container .our-mentors-title-span {
@@ -71,10 +69,6 @@
 @media screen and (min-width: 375px) {
   .our-mentors-container {
     max-width: 375px;
-    margin-bottom: 80px;
-  }
-  .our-mentors-container .mentors-main-title {
-    margin-bottom: 40px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -82,19 +76,24 @@
     max-width: 768px;
     margin-bottom: 100px;
     display: flex;
-    justify-content: space-around;
   }
   .our-mentors-container .mentors-main-title {
+    font-size: 48px;
+    line-height: 1.13;
+    margin-left: 20px;
     margin-bottom: 50px;
   }
   .mentors-cards-list {
-    gap: 93px;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 93px;
+    row-gap: 100px;
   }
   .our-mentors-container .mentors-cards-list .mentors-card {
-    width: calc (100% - 100px) / 2;
+    width: calc ((100% - 100px) / 2);
   }
 }
+
 @media screen and (min-width: 1280px) {
   .our-mentors-container {
     max-width: 1120px;
