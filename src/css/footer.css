@@ -1,6 +1,6 @@
 .footer {
     background-color: #121212;
-    background-image: url(../img/footer/F-Graphic.png);
+    background-image: url(../img/footer/f-graphic.png);
     color: #fff;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -106,7 +106,6 @@
 
 .footer-policy {
     display: flex;
-
     justify-content: space-between;
 }
 
@@ -130,7 +129,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .footer {
-        background-image: url(../img/footer/F-Graphic-2x.png)
+        background-image: url(../img/footer/f-graphic-2x.png)
     }
 }
 
@@ -145,7 +144,7 @@
     .footer {
         padding-top: 50px;
         padding-bottom: 25px;
-        background-image: url(../img/footer/F-Graphic-768.png);
+        background-image: url(../img/footer/f-graphic-768.png);
     }
 
     .footer-info {
@@ -153,7 +152,11 @@
         flex-direction: row;
         gap: 58px;
         margin-bottom: 74px;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
     }
+
 
     .footer-logo-wrap {
         display: flex;
@@ -163,23 +166,17 @@
 
     }
 
-    .footer-logo {
-        margin-bottom: 25px
-    }
-
     .footer-logo-icon {
         width: 123px;
         height: 16px;
         padding-right: 18px;
+        margin-bottom: 25px
     }
-
-
-    .footer-cont {}
 
     .footer-nav {
         display: flex;
         flex-wrap: nowrap;
-        margin-bottom: 75px;
+        gap: 30px;
     }
 
     .f-sub-form {
@@ -188,7 +185,7 @@
 
     .footer-input-email {
         width: 178px;
-        padding: 20px 40px 18px 20px;
+        padding: 20px 0 18px 20px;
         box-sizing: border-box;
     }
 
@@ -206,7 +203,7 @@
 
 @media screen and (min-width:1280px) {
     .footer {
-        background-image: url(../img/footer/F-Graphic-1280.png);
+        background-image: url(../img/footer/f-graphic-1280.png);
     }
 
     .footer-info {
@@ -241,7 +238,7 @@
 
 @media screen and (min-width: 1440px) {
     .footer {
-        background-image: url(../img/footer/F-Graphic-1440.png);
+        background-image: url(../img/footer/f-graphic-1440.png);
     }
 
     .footer-logo-wrap {
