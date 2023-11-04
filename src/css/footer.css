@@ -88,7 +88,7 @@
 
 
 .footer-input-email {
-    min-width: 267px;
+    width: 212px;
     height: 60px;
     border-radius: 12px;
     padding: 20px 18px;
@@ -123,7 +123,11 @@
 
 
 
-@media screen and (min-width:375px) {}
+@media screen and (min-width:375px) {
+    .footer-input-email {
+        width: 267px;
+    }
+}
 
 @media screen and (min-width:768px) {
 
@@ -152,7 +156,7 @@
     }
 
     .footer-logo-icon {
-        max-width: 123px;
+        width: 123px;
         height: 16px;
         padding-right: 18px;
     }
@@ -173,7 +177,7 @@
     }
 
     .footer-input-email {
-        min-width: 178px;
+        width: 178px;
         padding: 20px 18px;
         box-sizing: border-box;
     }
@@ -189,6 +193,10 @@
         background-image: url(../img/footer/F-Graphic\ 1280.png);
     }
 
+    .footer-logo-wrap {
+        margin-right: 150px;
+    }
+
     .footer-nav {
         gap: 50px;
     }
@@ -201,8 +209,8 @@
         gap: 20px;
     }
 
-    .sub-input {
-        max-width: 216px;
+    .footer-input-email {
+        width: 216px;
     }
 
     .f-sub-form {
