@@ -8,7 +8,6 @@
 }
 
 .hero-title {
-  color: #fff;
   font-size: 40px;
   font-weight: 500;
   line-height: 1.1;
@@ -24,7 +23,6 @@
 }
 
 .hero-text {
-  color: #fff;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -35,8 +33,6 @@
 .hero-wrapper {
   display: flex;
   gap: 40px;
-
-  /* justify-content: space-between; */
   margin-bottom: 31px;
 }
 
@@ -44,7 +40,6 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
-  /* width: 109px; */
 }
 
 .hero-list {
@@ -83,7 +78,6 @@
 }
 
 .hero-text-students {
-  color: #fff;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.04em;
@@ -128,7 +122,6 @@
 }
 
 .hero-text-num {
-  color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.13;
