@@ -4,6 +4,7 @@
 .hero-container {
   border-radius: 30px;
   background-color: #1d1d1d;
+  padding: 40px 20px 0;
 }
 
 .hero-title {
@@ -12,7 +13,6 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -0.04em;
-  padding: 40px 20px 0;
 
   margin-bottom: 20px;
 }
@@ -28,30 +28,30 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  padding: 0 20px;
+
   margin-bottom: 40px;
 }
 
 .hero-wrapper {
   display: flex;
-
-  /* По ходу це для 375px+ */
-  padding-left: 20px;
-  padding-right: 62px;
   gap: 40px;
+
+  /* justify-content: space-between; */
+  margin-bottom: 31px;
 }
 
 .hero-left-wrapper {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  width: 109px;
+  /* width: 109px; */
 }
 
 .hero-list {
   display: flex;
   position: relative;
   height: 44px;
+  width: 109px;
 }
 
 .hero-item {
@@ -89,10 +89,12 @@
   letter-spacing: -0.04em;
   width: 67px;
 }
+
 .hero-icon-arrow {
   fill: #ffffff;
   align-self: center;
 }
+
 .hero-right-wrapper {
   display: flex;
   gap: 12px;
@@ -136,23 +138,122 @@
 .hero-photographer-img {
   margin: 0 auto;
 }
+@media (min-width: 375px) {
+  .hero-wrapper {
+    /* justify-content: unset; */
+  }
+}
 
 @media (min-width: 768px) {
-  .hero-title {
+  .hero-container {
     padding: 64px 32px 0;
+  }
+
+  .hero-title {
     font-size: 60px;
     line-height: 1.07;
-    width: 581px;
+    max-width: 517px;
+  }
+
+  .hero-title > span {
+  }
+
+  .hero-list-img {
+    width: 54px;
+    height: 54px;
   }
 
   .hero-text {
-    padding: 0 32px;
-    max-width: 482px;
+    max-width: 418px;
+  }
+
+  .hero-left-wrapper {
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .hero-list {
+    height: 54px;
+    width: 137px;
+  }
+
+  .hero-item:nth-child(1) {
+    left: 0;
+  }
+
+  .hero-item:nth-child(2) {
+    left: 40px;
+  }
+
+  .hero-item:nth-child(3) {
+    left: 83px;
+  }
+
+  .hero-left-link {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .hero-text-students {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.04em;
+    width: 82px;
+  }
+
+  .hero-icon-wrapper {
+    width: 50px;
+    height: 50px;
+  }
+
+  .hero-right-subwrapper {
+    gap: 8px;
+  }
+  .hero-text-reviews {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .hero-text-num {
+    line-height: 1.25;
+  }
+
+  .hero-photographer-img {
+    width: 393px;
+    height: 434px;
   }
 }
 
 @media (min-width: 1280px) {
+  .hero-container {
+    padding: 80px 50px 0;
+    display: flex;
+    gap: 20px;
+  }
+
+  .hero-title {
+    font-size: 64px;
+    line-height: 1.06;
+    width: 563px;
+  }
+
+  .hero-text {
+    margin-bottom: 136px;
+  }
+
+  .hero-list {
+    height: 54px;
+    width: 135px;
+  }
+
+  .hero-photographer-img {
+    width: 397px;
+    height: 520px;
+  }
 }
 
 @media (min-width: 1440px) {
+  .hero-container {
+    gap: 130px;
+  }
 }
