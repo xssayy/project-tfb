@@ -19,44 +19,108 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/projcet-the-firstborn/assets/index-f804ef80.css">
+    <link rel="stylesheet" href="/projcet-the-firstborn/assets/index-3670ffac.css">
   </head>
   <body>
     <!-- Nikita -->
     <header class="header section">
   <div class="container">
     <div class="header-container">
-      <svg class="header-text-logo" width="127" height="20">
-        <use href="/projcet-the-firstborn/assets/sprite-4a6e3039.svg#icon-header-logo-text"></use>
-      </svg>
+      <a href="#sign-up-section">
+        <svg class="header-text-logo" width="127" height="20">
+          <use href="/projcet-the-firstborn/assets/sprite-b3613aef.svg#icon-header-logo-text"></use>
+        </svg>
+      </a>
 
       <nav>
         <ul class="header-nav-list">
-          <li class="header-nav-list-item header-photo-logo-cont">
-            <svg class="header-photo-logo" width="16" height="16">
-              <use href="/projcet-the-firstborn/assets/sprite-4a6e3039.svg#icon-header-photo-logo"></use>
-            </svg>
+          <li class="header-nav-list-item">
+            <a href="#sign-up-section" class="header-photo-logo-cont">
+              <svg class="header-photo-logo" width="16" height="16">
+                <use href="/projcet-the-firstborn/assets/sprite-b3613aef.svg#icon-header-photo-logo"></use>
+              </svg>
+            </a>
           </li>
 
-          <li class="header-nav-list-item header-mobile-menu-cont">
-            <button type="button" class="header-menu-btn">
-              <svg class="header-mobile-menu" width="32" height="22">
-                <use href="/projcet-the-firstborn/assets/sprite-4a6e3039.svg#icon-header-menu-button"></use>
+          <li class="header-nav-list-item header-mobile-menu-btn-cont">
+            <button type="button" class="header-mobile-menu-btn">
+              <svg class="header-mobile-menu-btn-icon" width="32" height="22">
+                <use href="/projcet-the-firstborn/assets/sprite-b3613aef.svg#icon-header-menu-button"></use>
               </svg>
             </button>
           </li>
         </ul>
 
         <ul class="header-dekstop-nav-list">
-          <li class="header-dekstop-nav-list-item">About us</li>
-          <li class="header-dekstop-nav-list-item">Our courses</li>
-          <li class="header-dekstop-nav-list-item">Our mentors</li>
-          <li class="header-dekstop-nav-list-item">Reviews</li>
-          <li class="header-dekstop-nav-list-item">contacts</li>
+          <li class="header-dekstop-nav-list-item">
+            <a href="#about-us-section"> About us</a>
+          </li>
+          <li class="header-dekstop-nav-list-item">
+            <a href="#our-courses-section">Our courses</a>
+          </li>
+          <li class="header-dekstop-nav-list-item">
+            <a href="#our-mentors-section">Our mentors</a>
+          </li>
+          <li class="header-dekstop-nav-list-item">
+            <a href="#reviews-section">Reviews</a>
+          </li>
+          <li class="header-dekstop-nav-list-item">
+            <a href="#contacts-section">Contacts</a>
+          </li>
         </ul>
       </nav>
     </div>
     <button type="button" class="header-sign-up-button">sign up</button>
+  </div>
+  <div class="header-backdrop is-open">
+    <div class="header-active-menu">
+      <button type="button" class="header-active-menu-cancel-btn">
+        <svg class="header-active-menu-cancel-btn-icon" width="32" height="32">
+          <use href="/projcet-the-firstborn/assets/sprite-b3613aef.svg#icon-header-active-menu-cancel-btn"></use>
+        </svg>
+      </button>
+
+      <nav>
+        <ul class="header-active-menu-nav-list">
+          <li
+            class="header-active-menu-nav-list-item header-active-menu-curren-page"
+          >
+            <a href="#about-us-section"> About us</a>
+          </li>
+          <li class="header-active-menu-nav-list-item">
+            <a href="#our-courses-section">Our courses</a>
+          </li>
+          <li class="header-active-menu-nav-list-item">
+            <a href="#our-mentors-section">Our mentors</a>
+          </li>
+          <li class="header-active-menu-nav-list-item">
+            <a href="#reviews-section">Reviews</a>
+          </li>
+          <li class="header-active-menu-nav-list-item">
+            <a href="#contacts-section">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-active-menu-img">
+        <picture>
+          <source
+            srcset="/projcet-the-firstborn/assets/header-mobile-menu-photo-1x-40e2d6e0.jpg 1x, /projcet-the-firstborn/assets/header-mobile-menu-photo-2x-d5b5f4f1.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="/projcet-the-firstborn/assets/header-tablet-menu-photo-1x-18e2ca4c.jpg 1x, /projcet-the-firstborn/assets/header-tablet-menu-photo-2x-e9c127b8.jpg 2x"
+            width="480"
+            media="(min-width: 768px)"
+          />
+          <img
+            src="../img/header/header-mobile-menu-photo-1x.jpg"
+            alt="Camera image"
+            width="218px"
+          />
+        </picture>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -84,5 +148,12 @@
 
     <!-- Lina -->
     
+    <script src="./js/nav-menu-header.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
