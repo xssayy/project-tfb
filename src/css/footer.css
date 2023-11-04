@@ -1,0 +1,221 @@
+.footer {
+    background-color: #121212;
+    background-image: url(../img/footer/F-Graphic.png);
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer-logo {
+    margin-bottom: 16px;
+}
+
+.footer-logo-icon {
+    max-width: 127px;
+    height: 20px;
+    fill: #fff;
+}
+
+.footer-cont {
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-style: inherit;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: auto;
+
+}
+
+.footer-logo-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.f-cont-item-link {
+    text-transform: uppercase;
+}
+
+
+.footer-nav {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 75px;
+}
+
+.f-soc-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.f-soc-link {
+    color: currentColor;
+}
+
+.f-soc-link:hover {
+    color: #BEA69E;
+}
+
+.f-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.f-nav-link {
+    color: currentColor;
+
+}
+
+.f-nav-link:hover {
+    color: #BEA69E;
+}
+
+
+
+.f-sub-form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+
+
+
+.footer-input-email {
+    min-width: 267px;
+    height: 60px;
+    border-radius: 12px;
+    padding: 20px 18px;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #121212;
+}
+
+.footer-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    background-color: #1D1D1D;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+
+.f-policy-list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.f-policy-item {
+    font-size: 12px;
+    line-height: 1.33;
+}
+
+
+
+
+@media screen and (min-width:375px) {}
+
+@media screen and (min-width:768px) {
+
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 25px;
+        background-image: url(../img/footer/F-Graphic\ tab.png);
+    }
+
+    .footer-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-logo-wrap {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-self: start;
+
+    }
+
+    .footer-logo {
+        margin-bottom: 25px
+    }
+
+    .footer-logo-icon {
+        max-width: 123px;
+        height: 16px;
+        padding-right: 18px;
+    }
+
+    .footer-contacts {
+        gap: 10px;
+    }
+
+    .footer-cont {
+        display: flex;
+        flex-wrap: nowrap
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-bottom: 75px;
+    }
+
+    .footer-input-email {
+        min-width: 178px;
+        padding: 20px 18px;
+        box-sizing: border-box;
+    }
+
+    .f-policy-item {
+        font-size: 14px;
+        line-height: 1.28;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .footer {
+        background-image: url(../img/footer/F-Graphic\ 1280.png);
+    }
+
+    .footer-nav {
+        gap: 50px;
+    }
+
+    .f-soc-list {
+        gap: 20px;
+    }
+
+    .f-nav-list {
+        gap: 20px;
+    }
+
+    .sub-input {
+        max-width: 216px;
+    }
+
+    .f-sub-form {
+        gap: 16px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer {
+        background-image: url(../img/footer/F-Graphic\ 1440.png);
+    }
+
+    .footer-nav {
+        gap: 100px;
+    }
+}
