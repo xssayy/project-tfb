@@ -1,6 +1,6 @@
 .footer {
     background-color: #121212;
-    background-image: url(../img/footer/f-graphic.png);
+    background-image: url(/img/footer/f-graphic.png);
     background-size: contain;
     color: #fff;
     padding-top: 40px;
@@ -51,6 +51,7 @@
     flex-direction: row;
     gap: 40px;
     font-size: 14px;
+    margin-bottom: 75px;
 }
 
 .f-soc-list {
@@ -130,11 +131,9 @@
 
 
 
-@media screen and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+@media (max-width:767px) and (min-resolution: 192dpi) {
     .footer {
-        background-image: url(../img/footer/f-graphic-2x.png);
+        background-image: url(/img/footer/f-graphic-2x.png);
 
     }
 }
@@ -150,7 +149,7 @@
     .footer {
         padding-top: 50px;
         padding-bottom: 25px;
-        background-image: url(../img/footer/f-graphic-768.png);
+        background-image: url(/img/footer/f-graphic-768.png);
     }
 
     .footer-info {
@@ -181,6 +180,7 @@
         display: flex;
         flex-wrap: nowrap;
         gap: 30px;
+        margin-bottom: 0;
     }
 
     .f-sub-form {
@@ -205,11 +205,9 @@
 
 }
 
-@media (min-width:768px) and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+@media (min-width:768px) and (min-resolution: 192dpi) {
     .footer {
-        background-image: url(../img/footer/f-graphic-tab-2x.png);
+        background-image: url(/img/footer/f-graphic-tab-2x.png);
 
     }
 }
@@ -218,7 +216,7 @@
 
 @media screen and (min-width:1280px) {
     .footer {
-        background-image: url(../img/footer/f-graphic-1280.png);
+        background-image: url(/img/footer/f-graphic-1280.png);
     }
 
     .footer-info {
@@ -252,11 +250,9 @@
     }
 }
 
-@media (min-width:1280px) and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+@media (min-width:1280px) and (min-resolution: 192dpi) {
     .footer {
-        background-image: url(../img/footer/f-graphic-1280-2x.png);
+        background-image: url(/img/footer/f-graphic-1280-2x.png);
 
     }
 }
@@ -264,7 +260,7 @@
 
 @media screen and (min-width: 1440px) {
     .footer {
-        background-image: url(../img/footer/f-graphic-1440.png);
+        background-image: url(/img/footer/f-graphic-1440.png);
     }
 
     .footer-logo-wrap {
@@ -277,11 +273,9 @@
     }
 }
 
-@media (min-width: 1440px) and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+@media (min-width: 1440px) and (min-resolution: 192dpi) {
     .footer {
-        background-image: url(../img/footer/f-graphic-1440-2x.png);
+        background-image: url(/img/footer/f-graphic-1440-2x.png);
 
     }
 }
