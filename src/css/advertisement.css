@@ -1,0 +1,105 @@
+.advertisement {
+    min-width: 320px;
+    overflow: hidden;
+    background-color: #121212;
+}
+
+.advertisement-container {
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    min-width: 320px;
+    display: flex;
+
+}
+
+.advertisement-title {
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.56px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    flex-shrink: 0;
+    margin: 0;
+    white-space: nowrap;
+    animation-name: advertisement-title;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+span {
+    color: #BEA69E;
+}
+
+@keyframes advertisement-title {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width: 767px) and (min-resolution: 192dpi) {
+    .header-and-hero-wrapper {
+        background-image: url(/img/header/header-and-hero-bg-mobile-2x.png);
+    }
+}
+
+@media (min-width: 375px) {
+    .container {
+        width: 375px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-and-hero-wrapper {
+        background-image: url(/img/header/header-and-hero-bg-tablet-1x.png);
+    }
+
+    .container {
+        width: 768px;
+        padding: 0 32px 0 32px;
+    }
+
+    .text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .section {
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+    .header-and-hero-wrapper {
+        background-image: url(/img/header/header-and-hero-bg-tablet-2x.png);
+    }
+}
+
+@media (min-width: 1280px) {
+    .header-and-hero-wrapper {
+        background-image: url(/img/header/header-and-hero-bg-dekstop-1280-1x.png);
+    }
+
+    .container {
+        width: 1280px;
+        padding: 0 100px 0 100px;
+    }
+
+    .section {
+        margin-bottom: 150px;
+    }
+}
+
+@media (min-width: 1280px) and (min-resolution: 192dpi) {
+    .header-and-hero-wrapper {
+        background-image: url(/img/header/header-and-hero-bg-dekstop-1280-2x.png);
+    }
+}
