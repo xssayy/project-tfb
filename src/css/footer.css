@@ -1,6 +1,7 @@
 .footer {
     background-color: #121212;
     background-image: url(../img/footer/f-graphic.png);
+    background-size: contain;
     color: #fff;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -134,7 +135,7 @@
 (min-resolution: 2dppx) {
     .footer {
         background-image: url(../img/footer/f-graphic-2x.png);
-        background-size: contain;
+
     }
 }
 
@@ -204,6 +205,17 @@
 
 }
 
+@media (min-width:768px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer {
+        background-image: url(../img/footer/f-graphic-tab-2x.png);
+
+    }
+}
+
+
+
 @media screen and (min-width:1280px) {
     .footer {
         background-image: url(../img/footer/f-graphic-1280.png);
@@ -240,6 +252,16 @@
     }
 }
 
+@media (min-width:1280px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer {
+        background-image: url(../img/footer/f-graphic-1280-2x.png);
+
+    }
+}
+
+
 @media screen and (min-width: 1440px) {
     .footer {
         background-image: url(../img/footer/f-graphic-1440.png);
@@ -252,5 +274,14 @@
     .footer-nav {
         gap: 100px;
         margin-right: 191px;
+    }
+}
+
+@media (min-width: 1440px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer {
+        background-image: url(../img/footer/f-graphic-1440-2x.png);
+
     }
 }
