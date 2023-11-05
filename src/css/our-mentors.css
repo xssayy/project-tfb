@@ -91,6 +91,7 @@
   }
   .our-mentors-container .our-mentors-cards-list .our-mentors-card {
     width: calc((100% - 100px) / 2);
+    justify-content: center;
   }
 }
 
