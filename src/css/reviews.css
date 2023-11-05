@@ -93,9 +93,9 @@ gap: 4px;
 
 
 
-@media screen (min-width: 375px) {
+@media (min-width: 375px) {
 
-    
+
     .reviwes-item {
     width: 335px;
     height: 244px;
@@ -103,7 +103,7 @@ gap: 4px;
     
 }
 
-@media screen (min-width: 768px){
+@media (min-width: 768px){
 
     .reviews-subtitle {            
         font-size: 48px;    
@@ -115,18 +115,24 @@ gap: 4px;
 
 
     .reviwes-item {
-        margin: 104px 32px 0 32px;
+        margin: 0 32px;
         width: 640px;
-        height: 196px; 
+        height: auto; 
     }
 
     .invisible {
-      top:auto;
+      top:0;
     }
 
     .reviwes-container{
-        
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+         margin-bottom: 20px;
+    }
 
+    .reviwes-text{
+        
     }
     
 }
