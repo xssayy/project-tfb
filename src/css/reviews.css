@@ -57,7 +57,7 @@ margin-bottom: 10px;
     align-items: center;
     gap: 4px;       
    
-    margin-left: 66px;     
+    
     
     fill: #BEA69E;   
        
@@ -88,7 +88,7 @@ margin-bottom: 10px;
 
 
 
-@media screen ( min-width: 375px ) {
+@media screen (min-width: 375px) {
     .reviwes-item {
     width: 335px;
     height: 244px;
@@ -96,7 +96,7 @@ margin-bottom: 10px;
     
 }
 
-@media screen ( min-width: 768px ){
+@media screen (min-width: 768px){
 
     .reviews-subtitle {            
         font-size: 48px;    
@@ -117,15 +117,14 @@ margin-bottom: 10px;
       top:auto;
     }
 
-    .reviwes-stars{
-     
-    }
+    .reviwes-container{
+        justify-content: ;
 
-.stars-container{
+    }
     
 }
 
-}
+
 
 
 @media ( min-width: 1280px ) {
