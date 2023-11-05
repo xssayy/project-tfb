@@ -8,6 +8,9 @@
     margin-bottom: 40px;
 
 }
+.reviwes-list{
+    position: relative;
+}
 
 
 .reviwes-item {  
@@ -25,10 +28,10 @@
 .reviwes-person {
 color: #FFF;
 font-size: 20px;
-line-height: 1.2; /* 120% */
-
-
+line-height: 1.2;
 margin-bottom: 4px;
+
+
 }
 .reviwes-status {
 color: rgba(255, 255, 255, 0.50);
@@ -43,35 +46,28 @@ margin-bottom: 10px;
 .reviwes-container{   
     display: flex;
     align-items: center; 
-    gap: 10px;
+    flex-wrap: wrap;
+    gap: 4px 10px;
    
-
-
-
-
 }
+
+
 .reviwes-stars {
     display: flex;
     align-items: center;
-    gap: 4px;           
-    margin-bottom: 20px;
-
-    position: relative;
-    left: 66px; 
+    gap: 4px;       
+   
+    margin-left: 66px;     
+    
     fill: #BEA69E;   
        
 }
 
-.reviwes-stars-icon {
-  
-    
-      
 
-}
-
-.reviwes-stars::lastchild{
+.empty-star{
     fill: #414141;  
 }
+
 
 
 .reviwes-text {
@@ -85,7 +81,8 @@ margin-bottom: 10px;
 .invisible {  
  visibility: hidden;
   position: absolute;
-  bottom: 89px;
+  top: 0px;
+ 
 
 }
 
@@ -99,7 +96,7 @@ margin-bottom: 10px;
     
 }
 
-@media ( min-width: 768px ){
+@media screen ( min-width: 768px ){
 
     .reviews-subtitle {            
         font-size: 48px;    
@@ -117,25 +114,41 @@ margin-bottom: 10px;
     }
 
     .invisible {
-        bottom: 360px;  
+      top:auto;
     }
 
+    .reviwes-stars{
+     
+    }
 
+.stars-container{
+    
+}
 
 }
 
 
 @media ( min-width: 1280px ) {
-    .reviwes-list{
-        display: flex;
-        gap: 20px;
+
+    .reviews-subtitle{
+        margin-bottom: 50px;
     }
 
+    .reviwes-list{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        
+    }
+    .reviwes-item{
+        margin: 0;
+    }
 
     .invisible {  
         visibility: visible;
          position: unset;
-         bottom: 89px;
+       
 
 }
 
