@@ -221,7 +221,7 @@
 
     .footer-info {
         margin-bottom: 50px;
-        gap: none;
+        gap: 0;
     }
 
     .footer-logo-wrap {
