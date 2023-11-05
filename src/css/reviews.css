@@ -43,11 +43,17 @@ margin-bottom: 10px;
 
 }
 
-.reviwes-container{   
+.reviwes-container-person{
     display: flex;
-    align-items: center; 
+    align-items: center;
     flex-wrap: wrap;
     gap: 4px 10px;
+}
+
+.reviwes-container{   
+display: flex;
+flex-direction: column;
+gap: 4px;
    
 }
 
@@ -55,9 +61,8 @@ margin-bottom: 10px;
 .reviwes-stars {
     display: flex;
     align-items: center;
-    gap: 4px;       
-   
-    
+    gap: 4px;
+    margin-left: 65px;         
     
     fill: #BEA69E;   
        
@@ -89,6 +94,8 @@ margin-bottom: 10px;
 
 
 @media screen (min-width: 375px) {
+
+    
     .reviwes-item {
     width: 335px;
     height: 244px;
@@ -118,7 +125,7 @@ margin-bottom: 10px;
     }
 
     .reviwes-container{
-        justify-content: ;
+        
 
     }
     
