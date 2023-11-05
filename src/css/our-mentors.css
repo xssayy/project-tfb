@@ -7,6 +7,9 @@
   margin: 0 auto;
 }
 .our-mentors-container .our-mentors-main-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
   color: #fff;
   font-family: DM Sans;
   font-size: 28px;
@@ -14,7 +17,7 @@
   font-weight: 500;
   line-height: 1, 14;
   letter-spacing: -0.04em;
-  margin-left: 20px;
+  margin-right: 180px;
   margin-bottom: 40px;
 }
 .our-mentors-container .our-mentors-title-span {
@@ -72,15 +75,16 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .our-mentors-ssection {
+    margin-bottom: 100px;
+  }
   .our-mentors-container {
     max-width: 768px;
-    margin-bottom: 100px;
-    padding-left: 108px;
-    padding-right: 108px;
   }
   .our-mentors-container .our-mentors-main-title {
     font-size: 48px;
     line-height: 1.13;
+    margin-right: 438px;
     margin-bottom: 50px;
   }
   .our-mentors-container .our-mentors-cards-list {
@@ -88,26 +92,45 @@
     flex-wrap: wrap;
     row-gap: 100px;
     column-gap: 93px;
+    padding-left: 108px;
+    padding-right: 108px;
+    justify-content: center;
   }
   .our-mentors-container .our-mentors-cards-list .our-mentors-card {
     width: calc((100% - 100px) / 2);
-    justify-content: center;
+  }
+  .our-mentors-container
+    .our-mentors-cards-list
+    .our-mentors-card
+    .our-mentors-info
+    .our-mentors-item-title {
+    text-align: center;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .our-mentors-container {
-    max-width: 1120px;
+  .our-mentors-ssection {
     margin-bottom: 150px;
   }
+  .our-mentors-ssection .our-mentors-container {
+    max-width: 1280px;
+  }
   .our-mentors-container .our-mentors-main-title {
+    line-height: 1.13;
     margin-bottom: 50px;
   }
-  .mentors-cards-list {
+  .our-mentors-container .our-mentors-cards-list {
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
     gap: 100px;
+    padding-left: 123px;
+    padding-right: 123px;
   }
   .our-mentors-container .mentors-cards-list .mentors-card {
     width: 180px;
   }
+}
+
+@media screen and (min-width: 1440px) {
 }
