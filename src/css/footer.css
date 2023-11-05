@@ -166,6 +166,7 @@
         flex-direction: column;
         align-content: flex-start;
         align-self: start;
+        margin-bottom: 0;
 
     }
 
