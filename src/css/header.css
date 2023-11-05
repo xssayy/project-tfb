@@ -109,6 +109,7 @@ body {
   height: 100vh;
   background-color: #bea69e;
   float: right;
+  z-index: 999;
 }
 
 .header-active-menu-cancel-btn {
