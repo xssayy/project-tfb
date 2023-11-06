@@ -124,6 +124,9 @@
         max-width: 314px;
     }
 
+        .about-us-text:last-child {
+            max-width: 276px;
+        }
     .about-us-img {
         margin-top: 0px;
         margin-bottom: 0px;
