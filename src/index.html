@@ -5,6 +5,13 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Focus.Frame</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,11 +21,13 @@
     />
   </head>
   <body>
-    <!-- Nikita -->
-    <load src="partials/header.html" />
+    <div class="header-and-hero-wrapper">
+      <!-- Nikita -->
+      <load src="partials/header.html" />
 
-    <!-- Artem -->
-    <load src="partials/hero.html" />
+      <!-- Artem -->
+      <load src="partials/hero.html" />
+    </div>
 
     <!-- Maksym -->
     <load src="partials/advertisement.html" />
@@ -40,5 +49,12 @@
 
     <!-- Lina -->
     <load src="partials/footer.html" />
+    <script src="./js/nav-menu-header.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

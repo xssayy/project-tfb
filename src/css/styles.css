@@ -18,12 +18,14 @@
 
 body {
   font-family: 'DM Sans', sans-serif;
+  background: #121212;
+  color: #ffffff;
 }
 
 .text {
   font-size: 14px;
   line-height: 18px;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
   color: #ffffff;
 }
 
@@ -37,6 +39,19 @@ body {
   margin-bottom: 80px;
 }
 
+.header-and-hero-wrapper {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  background-image: url(/img/header/header-and-hero-bg-mobile-1x.png);
+  background-size: contain;
+}
+
+@media (max-width: 767px) and (min-resolution: 192dpi) {
+  .header-and-hero-wrapper {
+    background-image: url(/img/header/header-and-hero-bg-mobile-2x.png);
+  }
+}
+
 @media (min-width: 375px) {
   .container {
     width: 375px;
@@ -44,21 +59,66 @@ body {
 }
 
 @media (min-width: 768px) {
+  .header-and-hero-wrapper {
+    background-image: url(/img/header/header-and-hero-bg-tablet-1x.png);
+    padding-bottom: 100px;
+  }
+
   .container {
     width: 768px;
     padding: 0 32px 0 32px;
   }
+
+  .text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .section {
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+  .header-and-hero-wrapper {
+    background-image: url(/img/header/header-and-hero-bg-tablet-2x.png);
+  }
 }
 
 @media (min-width: 1280px) {
+  .header-and-hero-wrapper {
+    background-image: url(/img/header/header-and-hero-bg-dekstop-1280-1x.png);
+    padding-bottom: 150px;
+  }
+
   .container {
     width: 1280px;
     padding: 0 100px 0 100px;
   }
+
+  .section {
+    margin-bottom: 150px;
+  }
+}
+
+@media (min-width: 1280px) and (min-resolution: 192dpi) {
+  .header-and-hero-wrapper {
+    background-image: url(/img/header/header-and-hero-bg-dekstop-1280-2x.png);
+  }
 }
 
 @media (min-width: 1440px) {
+  .header-and-hero-wrapper {
+    background-image: url(/img/header/header-and-hero-bg-dekstop-1440-1x.png);
+  }
+
   .container {
     width: 1440px;
+  }
+}
+
+@media (min-width: 1440px) and (min-resolution: 192dpi) {
+  .header-and-hero-wrapper {
+    background-image: url(/img/header/header-and-hero-bg-dekstop-1440-2x.png);
   }
 }
