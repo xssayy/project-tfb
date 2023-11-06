@@ -12,6 +12,10 @@
 
 }
 
+.advertisement-icon{
+    width: 320px;
+}
+
 .advertisement-title {
     justify-content: center;
     align-items: center;
@@ -50,6 +54,10 @@ span {
     .advertisement-container {
         width: 375px;
     }
+
+        .advertisement-icon {
+            width: 375px;;
+        }
 }
 
 @media (min-width: 768px) {
@@ -58,6 +66,9 @@ span {
         width: 768px;
         padding: 0 24px 0 24px;
     }
+        .advertisement-icon {
+            width: 768px;;
+        }
 
     .advertisement-title {
         font-size: 40px;
@@ -75,6 +86,10 @@ span {
     .advertisement-container {
         width: 1280px;
     }
+
+        .advertisement-icon {
+            width: 1280spx;;
+        }
 
     .advertisement-title{
         font-size: 59px;
