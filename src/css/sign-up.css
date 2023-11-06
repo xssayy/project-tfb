@@ -1,0 +1,306 @@
+.sign-up{
+    width: 100%;
+    background-color: #121212;
+}
+
+.container-sign-up{
+    max-width: 335px;
+}
+
+.sign-up-first{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.sign-up-two{
+    color: #BEA69E;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1,14;
+    letter-spacing: -0.04em;
+}
+
+.sign-up-text{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.285;
+    letter-spacing: -0.02em;
+    margin-bottom: 41px;
+    margin-right: 40px;
+}
+
+.sign-up-form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0;
+}
+
+.sign-up-form-input{
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28; 
+    background-color: #121212;
+    padding: 14px 210px 14px 18px;
+    opacity: 0.7;
+}
+
+.sign-up-form-input:hover::placeholder, 
+.sign-up-form-input:focus::placeholder {
+    color: #FFF;
+}
+
+.sign-up-form-input:hover,
+.sign-up-form-input:focus{
+    border: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+.sign-up-button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black, #121212);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-transform: uppercase;
+    border-radius: 12px;
+    background: var(--white, #FFF);
+    margin-top: 40px;
+    border: none;
+    padding: 14px 127px 14px 127px;
+    width: 335px;
+
+}
+
+.sign-up-privacy{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+.sign-up-link{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33;
+    text-decoration-line: underline;
+
+}
+
+.sign-up-photobox{
+    display: none;
+}
+
+
+@media (min-width:780px){
+
+.sign-up{
+    max-width: 480px;
+}
+.container-sign-up{
+    max-width: 480px;
+}
+    
+.sign-up-first{
+    font-size: 48px;
+    line-height: 1.12;
+    }
+    
+.sign-up-two{
+    font-size: 48px;
+    line-height: 1.12;
+    }
+    
+.sign-up-text{
+    font-size: 16px;
+    line-height: 1.25;
+    }
+    
+.sign-up-form{
+    gap: 14px;
+    }
+    
+.sign-up-form-input{
+    font-size: 16px;
+    line-height: 1.25; 
+    padding: 20px 340px 20px 18px;
+        
+}
+    
+   
+.sign-up-button{
+    font-size: 18px;
+    line-height: 1.55;
+    padding: 16px 216px;
+    width: auto;
+    }
+    
+.sign-up-privacy{
+    font-size: 14px;
+    line-height: 1.28;
+    }
+    
+    
+    
+    .sign-up-link{
+        font-size: 14px;
+        line-height: 1.28;
+    
+    }
+    
+    .sign-up-photobox{
+        display: none;
+    }
+    
+}
+
+
+
+@media screen and (min-width:1280px) {
+
+.sign-up{
+    display: flex;
+    max-width: 1080px;
+    background-color: #121212;
+}
+
+.container-sign-up{
+    max-width: 480px;
+}
+
+.sign-up-text{
+    max-width: 480px;
+}
+
+.sign-up-button{
+    width: 479px;
+    height: 60px;
+}
+
+.sign-up-text{
+    max-width: 480px;
+}
+
+.sign-up-photobox{
+    display: flex;
+    flex-direction: row;
+    background-color: #121212;
+    width: 540px;
+    gap: 20px;
+    align-items: flex-end;
+    padding-left: 60px;
+    padding-bottom: 38px;
+
+}
+
+.sign-up-photopart{
+        width: 180px; 
+        height: 288px; 
+        background: #BEA69E; 
+        border-radius: 1000px; 
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        overflow: hidden; 
+        position: relative;
+        background-image: url(../img/sign-up/lens1x.png);
+        background-size: contain;
+        background-position: right 19px top 76px;
+        background-repeat: no-repeat;
+
+}
+
+
+.sign-up-photo{
+        width: 340px; 
+        height: 540px; 
+        background: #1D1D1D;
+        border-radius: 1000px; 
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        overflow: hidden; 
+        position: relative;
+        background-image: url(../img/sign-up/camera1280.png);
+        background-size: 90%;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+
+}
+
+@media screen and (min-width:1440px) {
+
+    .sign-up{
+    max-width: 1240px;
+    }
+    
+    
+    
+    .sign-up-photobox{
+        width: 560px;
+        align-items: flex-end;
+        padding-left: 200px;
+    
+    }
+    
+    .sign-up-photopart{
+            width: 190px; 
+            height: 288px; 
+            background: #BEA69E; 
+            border-radius: 1000px; 
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            overflow: hidden; 
+            position: relative;
+            background-image: url(../img/sign-up/lens1440.png);
+            background-size: contain;
+            background-position: right 19px top 76px;
+            background-repeat: no-repeat;
+    
+    }
+    
+    
+    .sign-up-photo{
+            width: 350px; 
+            height: 540px; 
+            background: #1D1D1D;
+            border-radius: 1000px; 
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            overflow: hidden; 
+            position: relative;
+            background-image: url(../img/sign-up/camera1440.png);
+            background-size: 90%;
+            background-position: center;
+            background-repeat: no-repeat;
+    }
+    
+    }
+
+
+
