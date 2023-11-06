@@ -115,7 +115,9 @@ body {
 .header-active-menu-cancel-btn {
   width: 32px;
   height: 32px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
   position: absolute;
   top: 20px;
@@ -229,6 +231,12 @@ body {
 
   .header-active-menu-nav-list {
     margin: 232px 0 0 64px;
+  }
+
+  .header-active-menu-cancel-btn {
+    right: 32px;
+    width: 40px;
+    height: 40px;
   }
 
   .header-active-menu-cancel-btn-icon {
