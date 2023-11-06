@@ -1,0 +1,194 @@
+
+.reviews-subtitle {
+    color: #FFF;    
+    font-size: 28px;    
+    line-height: 1.15; /* 114.286% */
+    letter-spacing: -0.04em;  
+
+    margin-bottom: 40px;
+
+}
+.reviwes-list{
+    position: relative;
+}
+
+
+.reviwes-item {  
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 12px;
+    padding: 20px;     
+}
+
+.reviwes-img {    
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.reviwes-person {
+color: #FFF;
+font-size: 20px;
+line-height: 1.2;
+margin-bottom: 4px;
+
+
+}
+.reviwes-status {
+color: rgba(255, 255, 255, 0.50);
+font-size: 12px;
+line-height: 1.4; /* 133.333% */
+letter-spacing: -0.24px;
+
+margin-bottom: 10px;
+
+}
+
+.reviwes-container-person{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px 10px;
+}
+
+.reviwes-container{   
+display: flex;
+flex-direction: column;
+gap: 4px;
+   
+}
+
+
+.reviwes-stars {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 65px;
+    margin-bottom: 20px;         
+    
+    fill: #BEA69E;   
+       
+}
+
+
+.empty-star{
+    fill: #414141;  
+}
+
+.reviwes-stars-icon{
+    width: 16px;
+    height: 16px;
+}
+
+
+
+.reviwes-text {
+    color: #FFF;
+    font-size: 14px;  
+    line-height: 1.29; /* 128.571% */
+    letter-spacing: -0.02em;
+    }
+
+
+.invisible {  
+ visibility: hidden;
+  position: absolute;
+  top: 0px;
+ 
+
+}
+
+
+
+@media (min-width: 375px) {
+
+
+} 
+
+@media (min-width: 768px){
+
+    .reviews-subtitle {            
+        font-size: 48px;    
+        line-height: 1.12;
+        margin-bottom: 50px;
+
+    }
+
+    .reviwes-person{
+        line-height: 1.4;
+
+    }
+
+    .reviwes-status{
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+
+    .reviwes-item {
+        margin: 0 32px;
+        
+    }
+
+    .invisible {
+      top:0;
+    }
+
+    .reviwes-container{
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+         margin-bottom: 20px;
+    }
+
+    .reviwes-stars{
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .reviwes-stars-icon{
+        width: 20px;
+        height: 20px;
+    }
+    
+    
+}
+
+
+
+
+@media ( min-width: 1280px ) {
+
+    .reviews-subtitle{
+        margin-bottom: 50px;
+    }
+
+    .reviwes-list{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        
+    }
+    .reviwes-item{
+        margin: 0;
+    }
+
+    .invisible {  
+        visibility: visible;
+         position: unset;
+       
+
+}
+
+
+}
+
+@media ( min-width: 1440px ) {
+
+
+    .reviwes-item{
+        width: 610px;
+        height: 196px;
+    }
+
+}
