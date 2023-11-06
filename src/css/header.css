@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .header-container {
@@ -82,6 +82,7 @@ body {
 /* backdrop */
 
 .header-backdrop {
+  z-index: 999;
   position: fixed;
   top: 0;
   left: 0;
@@ -114,7 +115,9 @@ body {
 .header-active-menu-cancel-btn {
   width: 32px;
   height: 32px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
   position: absolute;
   top: 20px;
@@ -147,6 +150,10 @@ body {
 }
 
 @media (min-width: 768px) {
+  .header {
+    margin-bottom: 40px;
+  }
+
   .header-photo-logo-cont {
     position: absolute;
     width: 1px;
@@ -226,6 +233,12 @@ body {
     margin: 232px 0 0 64px;
   }
 
+  .header-active-menu-cancel-btn {
+    right: 32px;
+    width: 40px;
+    height: 40px;
+  }
+
   .header-active-menu-cancel-btn-icon {
     width: 40px;
     height: 40px;
@@ -233,6 +246,10 @@ body {
 }
 
 @media (min-width: 1280px) {
+  .header {
+    margin-bottom: 80px;
+  }
+
   .header-nav-list {
     position: absolute;
     width: 1px;
