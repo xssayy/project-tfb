@@ -1,15 +1,17 @@
-.sign-up{
+.sign-up-section{
     width: 100%;
-    background-color: #121212;
+}
+
+.container-section-sign-up{
+    width: 280px;
 }
 
 .container-sign-up{
-    max-width: 335px;
+    width: 280px;
 }
 
 .sign-up-first{
     color: #FFF;
-    font-family: DM Sans;
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
@@ -20,7 +22,6 @@
 
 .sign-up-two{
     color: #BEA69E;
-    font-family: DM Sans;
     font-size: 28px;
     font-weight: 500;
     line-height: 1,14;
@@ -29,7 +30,6 @@
 
 .sign-up-text{
     color: #FFF;
-    font-family: DM Sans;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.285;
@@ -49,47 +49,47 @@
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     color: #FFF;
-    font-family: DM Sans;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.28; 
     background-color: #121212;
-    padding: 14px 210px 14px 18px;
+    padding: 14px 18px 14px 18px;
     opacity: 0.7;
 }
 
 .sign-up-form-input:hover::placeholder, 
 .sign-up-form-input:focus::placeholder {
     color: #FFF;
+    opacity: 1;
 }
 
 .sign-up-form-input:hover,
 .sign-up-form-input:focus{
     border: 1px solid rgba(255, 255, 255, 0.50);
+
 }
 
 .sign-up-button{
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     color: var(--black, #121212);
-    font-family: DM Sans;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.25;
     text-transform: uppercase;
     border-radius: 12px;
     background: var(--white, #FFF);
-    margin-top: 40px;
+    margin-top: 32px;
     border: none;
-    padding: 14px 127px 14px 127px;
-    width: 335px;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
 
 }
 
 .sign-up-privacy{
     color: rgba(255, 255, 255, 0.50);
-    font-family: DM Sans;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.33;
@@ -101,7 +101,6 @@
 
 .sign-up-link{
     color: rgba(255, 255, 255, 0.50);
-    font-family: DM Sans;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.33;
@@ -113,14 +112,29 @@
     display: none;
 }
 
-
-@media (min-width:780px){
-
-.sign-up{
-    max-width: 480px;
+@media screen and (min-width:375px) {
+.container-section-sign-up{
+     width: 335px;
 }
+
 .container-sign-up{
-    max-width: 480px;
+    width: 335px;
+}
+
+.sign-up-button{
+    width: auto;
+}
+    
+}
+
+@media (min-width:768px){
+
+.container-section-sign-up{
+    width: 480px;
+}
+   
+.container-sign-up{
+    width: 480px;
 }
     
 .sign-up-first{
@@ -145,15 +159,13 @@
 .sign-up-form-input{
     font-size: 16px;
     line-height: 1.25; 
-    padding: 20px 340px 20px 18px;
+    padding: 20px 18px 20px 18px;
         
 }
     
-   
 .sign-up-button{
     font-size: 18px;
     line-height: 1.55;
-    padding: 16px 216px;
     width: auto;
     }
     
@@ -180,22 +192,22 @@
 
 @media screen and (min-width:1280px) {
 
-.sign-up{
+.container-section-sign-up{
     display: flex;
-    max-width: 1080px;
-    background-color: #121212;
+    gap: 60px;
+
 }
 
 .container-sign-up{
-    max-width: 480px;
+    width: 480px;
 }
 
 .sign-up-text{
-    max-width: 480px;
+    width: 480px;
 }
 
 .sign-up-button{
-    width: 479px;
+    width: auto;
     height: 60px;
 }
 
@@ -210,9 +222,8 @@
     width: 540px;
     gap: 20px;
     align-items: flex-end;
-    padding-left: 60px;
     padding-bottom: 38px;
-
+    
 }
 
 .sign-up-photopart{
@@ -251,18 +262,15 @@
 
 }
 
-@media screen and (min-width:1440px) {
-
-    .sign-up{
-    max-width: 1240px;
+@media screen and (min-width:1440px) {    
+    .container-section-sign-up{
+        gap: 200px;
+    
     }
-    
-    
     
     .sign-up-photobox{
         width: 560px;
         align-items: flex-end;
-        padding-left: 200px;
     
     }
     
