@@ -14,7 +14,7 @@
 
 
 .reviwes-item {  
-    border: 1px solid #FFFFFF33;
+    border: 1px solid rgba(255, 255, 255, 0.20);
     border-radius: 12px;
     padding: 20px;     
 }
@@ -62,7 +62,8 @@ gap: 4px;
     display: flex;
     align-items: center;
     gap: 4px;
-    margin-left: 65px;         
+    margin-left: 65px;
+    margin-bottom: 20px;         
     
     fill: #BEA69E;   
        
@@ -108,14 +109,24 @@ gap: 4px;
     .reviews-subtitle {            
         font-size: 48px;    
         line-height: 1.12;
-
         margin-bottom: 50px;
 
+    }
+
+    .reviwes-person{
+        line-height: 1.4;
+
+    }
+
+    .reviwes-status{
+        font-size: 14px;
+        line-height: 1.3;
     }
 
 
     .reviwes-item {
         margin: 0 32px;
+        
     }
 
     .invisible {
@@ -127,6 +138,11 @@ gap: 4px;
         align-items: start;
         justify-content: space-between;
          margin-bottom: 20px;
+    }
+
+    .reviwes-stars{
+        margin-left: 0;
+        margin-bottom: 0;
     }
 
     .reviwes-stars-icon{
