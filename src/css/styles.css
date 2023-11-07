@@ -16,6 +16,10 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'DM Sans', sans-serif;
   background: #121212;
