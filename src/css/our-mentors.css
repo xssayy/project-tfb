@@ -71,7 +71,6 @@
     font-size: 48px;
     line-height: 1, 12;
     letter-spacing: -0.04em;
-    /*margin-left: 32px;*/
     margin-bottom: 50px;
   }
   .our-mentors-section .our-mentors-container .our-mentors-cards-list {
@@ -80,12 +79,6 @@
     gap: 93px 100px;
     padding-left: 108px;
     padding-right: 108px;
-  }
-  .our-mentors-section
-    .our-mentors-container
-    .our-mentors-cards-list
-    .our-mentors-card {
-    /* width: calc((100% - 100px) / 2);*/
   }
 }
 .our-mentors-section .our-mentors-container .our-mentors-item-title {
@@ -104,10 +97,6 @@
   .our-mentors-section .our-mentors-container {
     max-width: 1280px;
   }
-  .our-mentors-section .our-mentors-container .our-mentors-main-title {
-    /*margin-left: 100px;*/
-  }
-
   .our-mentors-section .our-mentors-container .our-mentors-cards-list {
     padding-left: 0px;
     padding-right: 0px;
