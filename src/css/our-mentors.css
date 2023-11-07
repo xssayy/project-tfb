@@ -12,7 +12,7 @@
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: -0.04em;
   margin-left: 20px;
   margin-bottom: 40px;
@@ -26,22 +26,15 @@
   justify-content: center;
   gap: 40px;
 }
-
-.our-mentors-card {
-}
-
 .our-mentors-photo {
   border-radius: 200px;
   background: #e0e0e0;
-  max-width: 0 auto;
   margin-bottom: 16px;
 }
-
 .our-mentors-info {
   display: table;
   vertical-align: middle;
 }
-
 .our-mentors-item-title {
   color: #fff;
   text-align: center;
@@ -53,7 +46,7 @@
   margin-bottom: 4px;
 }
 .our-mentors-item-text {
-  color: rgba(255, 255, 255 0.5);
+  color: rgba(255, 255, 255, 0.5);
   text-align: center;
   font-family: DM Sans;
   font-size: 12px;
@@ -67,7 +60,6 @@
     max-width: 375px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .our-mentors-section {
     margin-bottom: 100px;
@@ -79,14 +71,13 @@
     font-size: 48px;
     line-height: 1, 12;
     letter-spacing: -0.04em;
-    margin-left: 32px;
+    /*margin-left: 32px;*/
     margin-bottom: 50px;
   }
   .our-mentors-section .our-mentors-container .our-mentors-cards-list {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 100px;
-    column-gap: 93px;
+    gap: 93px 100px;
     padding-left: 108px;
     padding-right: 108px;
   }
@@ -94,7 +85,7 @@
     .our-mentors-container
     .our-mentors-cards-list
     .our-mentors-card {
-    width: calc((100% - 100px) / 2);
+    /* width: calc((100% - 100px) / 2);*/
   }
 }
 .our-mentors-section .our-mentors-container .our-mentors-item-title {
@@ -106,7 +97,6 @@
   font-size: 14px;
   line-height: 1.28;
 }
-
 @media screen and (min-width: 1280px) {
   .our-mentors-section {
     margin-bottom: 150px;
@@ -115,14 +105,15 @@
     max-width: 1280px;
   }
   .our-mentors-section .our-mentors-container .our-mentors-main-title {
-    margin-left: 100px;
+    /*margin-left: 100px;*/
   }
 
   .our-mentors-section .our-mentors-container .our-mentors-cards-list {
+    padding-left: 0px;
+    padding-right: 0px;
     flex-wrap: nowrap;
   }
 }
-
 @media screen and (min-width: 1440px) {
   .our-mentors-section .our-mentors-container {
     max-width: 1440px;
