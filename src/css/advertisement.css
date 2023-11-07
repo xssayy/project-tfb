@@ -1,0 +1,98 @@
+.advertisement {
+  padding: 0;
+  overflow: hidden;
+  background-color: #121212;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.advertisement-container {
+  margin: 0 auto;
+  padding: 20px 0;
+  min-width: 320px;
+  display: flex;
+}
+
+.advertisement-title {
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  margin: 0 15px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  animation-name: advertisement-title;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.advertisement-title-span {
+  color: #bea69e;
+}
+
+@keyframes advertisement-title {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media (min-width: 375px) {
+  .advertisement-container {
+    width: 375px;
+  }
+}
+
+@media (min-width: 768px) {
+  .advertisement-container {
+    width: 768px;
+    padding: 24px 0;
+  }
+
+  .advertisement-title {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.8px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .advertisement-container {
+    width: 1280px;
+    justify-content: center;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .advertisement-title {
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: 1.18px;
+    animation-name: none;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .advertisement-container {
+    width: 1440px;
+  }
+}
