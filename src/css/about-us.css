@@ -1,135 +1,130 @@
 .about-us-section {
-    padding-top: 0;
-    padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .about-us-title {
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: -0.04em;
-    margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
 }
 
-
-
 .about-us-accent {
-    color: #BEA69E;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: -0.04em;
+  color: #bea69e;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
 }
 
 .about-us-img {
-    
-    margin-bottom: 40px;
-    
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
 }
 
 .about-us-text-box {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .about-us-text {
-    width: 335px;
+  width: 335px;
 }
 
-
 @media screen and (min-width: 768px) {
-    
-    .about-us-title,
-    .about-us-accent {
-        font-size: 48px;
-        font-weight: 500;
-        line-height: 1.12;
-        letter-spacing: -0.04em;
-        margin-bottom: 50px;
-    }
-    .about-us-text-box {
-        flex-wrap: nowrap;
-        gap: 40px;
+  .about-us-title,
+  .about-us-accent {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+    margin-bottom: 50px;
+  }
+  .about-us-text-box {
+    flex-wrap: nowrap;
+    gap: 40px;
+  }
 
-    }
+  .about-us-text {
+    max-width: 280px;
+  }
 
-    .about-us-text {
-         max-width: 280px; 
-    }
-
-    .about-us-img {
-        margin-bottom: 50px;
-        width: 704px;
-        height: 340px;
-    }
+  .about-us-img {
+    margin-bottom: 50px;
+    width: 704px;
+    height: 340px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .about-us-box-desktop {
-        display: flex;
-        align-items: flex-start;
-        gap: 40px;
-    }
+  .about-us-box-desktop {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+  }
 
-    .about-us-title, .about-us-accent {
-        font-size: 48px;
-        font-weight: 500;
-        line-height: 1.12;
-        letter-spacing: -0.04em;
-        margin-bottom: 50px;
-    }
-    .about-us-text-box {
-        flex-wrap: nowrap;
-        gap: 20px;
-    }
+  .about-us-title,
+  .about-us-accent {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+    margin-bottom: 50px;
+  }
+  .about-us-text-box {
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
 
-    .about-us-text {
-        max-width: 268px;
-    }
+  .about-us-text {
+    max-width: 268px;
+  }
 
-    .about-us-img {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        width: 488px;
-        height: 260px;
-    }
+  .about-us-img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 488px;
+    height: 260px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .about-us-box-desktop {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 50px;
-    }
+  .about-us-box-desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+  }
 
-    .about-us-title,
-    .about-us-accent {
-        font-size: 48px;
-        font-weight: 500;
-        line-height: 1.12;
-        letter-spacing: -0.04em;
-        margin-bottom: 50px;
-    }
+  .about-us-title,
+  .about-us-accent {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+    margin-bottom: 50px;
+  }
 
-    .about-us-text-box {
-        flex-wrap: nowrap;
-        gap: 40px;
-        width: 630px;
-    }
+  .about-us-text-box {
+    flex-wrap: nowrap;
+    gap: 40px;
+    width: 630px;
+  }
 
-    .about-us-text {
-        max-width: 314px;
-    }
+  .about-us-text {
+    max-width: 314px;
+  }
 
-        .about-us-text:last-child {
-            max-width: 276px;
-        }
-    .about-us-img {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        width: 560px;
-        height: 240px;
-    }
-
+  .about-us-text:last-child {
+    max-width: 276px;
+  }
+  .about-us-img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 560px;
+    height: 240px;
+  }
 }

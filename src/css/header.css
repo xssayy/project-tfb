@@ -86,7 +86,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 
   background: rgba(18, 18, 18, 0.4);
@@ -107,7 +107,7 @@ body {
 .header-active-menu {
   position: relative;
   width: 218px;
-  height: 100vh;
+  height: 100%;
   background-color: #bea69e;
   float: right;
 }
