@@ -85,6 +85,52 @@ color: rgba(255, 255, 255, 0.50);
 }
 
 @media (min-width: 768px) {
-  
+.our-courses-subtitle {
+font-size: 48px;
+font-weight: 500;
+line-height: 1.12;
+letter-spacing: -0.04em;
+white-space: nowrap;
+margin-right: 58px;}
+
+.our-courses-wrap {
+display: flex;
+justify-content: space-between;
+margin-bottom: 50px;
+}
+
+.our-courses-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.our-courses-item {
+  width: calc((100% - 20px) / 2);
+}
+
+.our-courses-up-wrapper {
+  margin-bottom: 32px;
+}
+
+.our-courses-item-subtitle {
+  margin-bottom: 180px;
+}
+}
+
+@media (min-width: 1280px) {
+  .our-courses-subtitle {
+    margin-right: 410px;
+  }
+
+  .our-courses-item {
+    width: calc((100% - 40px) / 3);
+  }
+}
+
+@media (min-width: 1440px) {
+  .our-courses-item-subtitle {
+    margin-bottom: 200px;
+  }  
   
 }
