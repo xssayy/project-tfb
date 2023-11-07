@@ -2,6 +2,7 @@
     padding: 0;
     overflow: hidden;
     background-color: #121212;
+    border: 1px solid rgba(255, 255, 255, 0.20);
 }
 
 .advertisement-container {
@@ -87,14 +88,31 @@ span {
         width: 1280px;
     }
 
-        .advertisement-icon {
-            width: 1280spx;;
-        }
+    .advertisement-icon {
+        width: 1280spx;;
+    }
+
+    .visually-hidden{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 
     .advertisement-title{
         font-size: 59px;
         line-height: 64px;
         letter-spacing: -1.18px;
+        animation-name: none;
+        animation-duration: 0s;
+        animation-timing-function: none;
+        animation-iteration-count: none;
     }
 
     .advertisement {
