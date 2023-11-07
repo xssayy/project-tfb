@@ -77,8 +77,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 93px 100px;
-    padding-left: 108px;
-    padding-right: 108px;
   }
 }
 .our-mentors-section .our-mentors-container .our-mentors-item-title {
@@ -98,8 +96,6 @@
     max-width: 1280px;
   }
   .our-mentors-section .our-mentors-container .our-mentors-cards-list {
-    padding-left: 0px;
-    padding-right: 0px;
     flex-wrap: nowrap;
   }
 }
